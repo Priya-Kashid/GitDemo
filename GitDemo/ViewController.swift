@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var Tplabel: UILabel!
     @IBOutlet weak var reverseLabel: UILabel!
       let message = "Hello Git!"
     
@@ -19,7 +20,7 @@ class ViewController: UIViewController {
         print(reversed)
         reverseLabel.text=reversed
         
-        
+        Tplabel.text="Priya"
         super.viewDidLoad()
       
          print(message)
